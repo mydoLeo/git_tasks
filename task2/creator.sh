@@ -4,5 +4,5 @@ for ((i=1; i<=10; i++)); do
 done
 echo "They have done"
 if [[ -n $@ ]]; then
-echo "$1" > 1.txt 
+echo "$1" > 1.txt
 fi
